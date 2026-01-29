@@ -12,6 +12,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 function App() {
+    
     const [user, setUser] = useState(null);
 
     function login(data) {
